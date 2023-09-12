@@ -1,0 +1,484 @@
+.root {
+  position: relative;
+  width: 1920px;
+  height: 1751px;
+  align-items: flex-start;
+}
+.rectangle1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #232831;
+}
+.rectangle4 {
+  position: absolute;
+  left: 9.7239%;
+  right: 76.8907%;
+  top: 10.9347%;
+  bottom: 67.0207%;
+  border-radius: 22px;
+  background-color: #ffffff12;
+  box-shadow: 0px 4px 23px -7px #000;
+}
+.rectangle5 {
+  position: absolute;
+  left: 26.5156%;
+  right: 60.099%;
+  top: 10.9347%;
+  bottom: 67.0207%;
+  border-radius: 22px;
+  background-color: #ffffff12;
+  box-shadow: 0px 4px 23px -7px #000;
+}
+.rectangle8 {
+  position: absolute;
+  left: 43.3073%;
+  right: 43.3073%;
+  top: 10.9347%;
+  bottom: 67.0207%;
+  border-radius: 22px;
+  background-color: #ffffff12;
+  box-shadow: 0px 4px 23px -7px #000;
+}
+.rectangle11 {
+  position: absolute;
+  left: 60.099%;
+  right: 26.5156%;
+  top: 10.9347%;
+  bottom: 67.0207%;
+  border-radius: 22px;
+  background-color: #ffffff12;
+  box-shadow: 0px 4px 23px -7px #000;
+}
+.rectangle14 {
+  position: absolute;
+  left: 76.8907%;
+  right: 9.7239%;
+  top: 10.9347%;
+  bottom: 67.0207%;
+  border-radius: 22px;
+  background-color: #ffffff12;
+  box-shadow: 0px 4px 23px -7px #000;
+}
+.image1 {
+  position: absolute;
+  left: 9.7239%;
+  right: 76.8907%;
+  top: 10.9347%;
+  bottom: 67.0207%;
+  border-radius: 22px;
+  background-image:/* webpackIgnore: true */ url('assets/image1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle2 {
+  position: absolute;
+  left: 9.7239%;
+  right: 76.8907%;
+  top: 29.367%;
+  bottom: 67.0207%;
+  border-radius: 22px;
+  background-color: #ffffff08;
+  backdrop-filter: blur(2.5px);
+}
+.image2 {
+  position: absolute;
+  left: 26.5156%;
+  right: 60.099%;
+  top: 10.9347%;
+  bottom: 67.0207%;
+  border-radius: 21px;
+  background-image:/* webpackIgnore: true */ url('assets/image2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle6 {
+  position: absolute;
+  left: 26.5156%;
+  right: 60.099%;
+  top: 29.367%;
+  bottom: 67.0207%;
+  border-radius: 22px;
+  background-color: #ffffff08;
+  backdrop-filter: blur(2.5px);
+}
+.image3 {
+  position: absolute;
+  left: 43.3073%;
+  right: 43.3073%;
+  top: 10.9347%;
+  bottom: 67.0207%;
+  border-radius: 22px;
+  background-image:/* webpackIgnore: true */ url('assets/image3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle9 {
+  position: absolute;
+  left: 43.3073%;
+  right: 43.3073%;
+  top: 29.367%;
+  bottom: 67.0207%;
+  border-radius: 22px;
+  background-color: #ffffff08;
+  backdrop-filter: blur(2.5px);
+}
+.image4 {
+  position: absolute;
+  left: 60.099%;
+  right: 26.5156%;
+  top: 10.9347%;
+  bottom: 67.0207%;
+  border-radius: 22px;
+  background-image:/* webpackIgnore: true */ url('assets/image4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle12 {
+  position: absolute;
+  left: 60.099%;
+  right: 26.5156%;
+  top: 29.367%;
+  bottom: 67.0207%;
+  border-radius: 22px;
+  background-color: #ffffff08;
+  backdrop-filter: blur(2.5px);
+}
+.image5 {
+  position: absolute;
+  left: 76.8907%;
+  right: 9.7239%;
+  top: 10.9347%;
+  bottom: 67.0207%;
+  border-radius: 23px;
+  background-image:/* webpackIgnore: true */ url('assets/image5.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle15 {
+  position: absolute;
+  left: 76.8907%;
+  right: 9.7239%;
+  top: 29.367%;
+  bottom: 67.0207%;
+  border-radius: 22px;
+  background-color: #ffffff08;
+  backdrop-filter: blur(2.5px);
+}
+.callOfDutyModernWarfare {
+  color: #fff;
+  font-size: 12px;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 10.2968%;
+  right: 80.4845%;
+  top: 29.7458%;
+  bottom: 68.7123%;
+  justify-content: center;
+  flex-direction: column;
+}
+.starfield {
+  color: #fff;
+  font-size: 12px;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 27.0885%;
+  right: 63.6928%;
+  top: 29.7458%;
+  bottom: 68.7123%;
+  justify-content: center;
+  flex-direction: column;
+}
+.callOfDutyBlackOpsColdWar {
+  color: #fff;
+  font-size: 12px;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 43.8802%;
+  right: 45.0655%;
+  top: 29.7458%;
+  bottom: 68.7123%;
+  justify-content: center;
+  flex-direction: column;
+}
+.fifa23UltimateEdition {
+  color: #fff;
+  font-size: 12px;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 60.6719%;
+  right: 30.1093%;
+  top: 29.7458%;
+  bottom: 68.7123%;
+  justify-content: center;
+  flex-direction: column;
+}
+.grandTheftAutoV {
+  color: #fff;
+  font-size: 12px;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 77.4636%;
+  right: 13.3176%;
+  top: 29.7458%;
+  bottom: 68.7123%;
+  justify-content: center;
+  flex-direction: column;
+}
+._42 {
+  color: #fff;
+  font-size: 8.5px;
+  line-height: 28px;
+  font-weight: 300;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 10.3976%;
+  right: 88.8733%;
+  top: 31.2877%;
+  bottom: 68.0841%;
+  justify-content: center;
+  flex-direction: column;
+}
+._44 {
+  color: #fff;
+  font-size: 8.5px;
+  line-height: 28px;
+  font-weight: 300;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 27.1893%;
+  right: 72.0815%;
+  top: 31.2877%;
+  bottom: 68.0841%;
+  justify-content: center;
+  flex-direction: column;
+}
+._4 {
+  color: #fff;
+  font-size: 8.5px;
+  line-height: 28px;
+  font-weight: 300;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 43.981%;
+  right: 55.2898%;
+  top: 31.2877%;
+  bottom: 68.0841%;
+  justify-content: center;
+  flex-direction: column;
+}
+._45 {
+  color: #fff;
+  font-size: 8.5px;
+  line-height: 28px;
+  font-weight: 300;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 60.7727%;
+  right: 38.4981%;
+  top: 31.2877%;
+  bottom: 68.0841%;
+  justify-content: center;
+  flex-direction: column;
+}
+._5 {
+  color: #fff;
+  font-size: 8.5px;
+  line-height: 28px;
+  font-weight: 300;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 77.5644%;
+  right: 21.7064%;
+  top: 31.2877%;
+  bottom: 68.0841%;
+  justify-content: center;
+  flex-direction: column;
+}
+.unnamed {
+  color: #fff;
+  font-size: 6px;
+  line-height: 28px;
+  font-weight: 300;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 11.0226%;
+  right: 88.7691%;
+  top: 31.3323%;
+  bottom: 68.0966%;
+  justify-content: center;
+  flex-direction: column;
+}
+.unnamed2 {
+  color: #fff;
+  font-size: 6px;
+  line-height: 28px;
+  font-weight: 300;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 61.3977%;
+  right: 38.3939%;
+  top: 31.3323%;
+  bottom: 68.0966%;
+  justify-content: center;
+  flex-direction: column;
+}
+.unnamed3 {
+  color: #fff;
+  font-size: 6px;
+  line-height: 28px;
+  font-weight: 300;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 78.1894%;
+  right: 21.6022%;
+  top: 31.3323%;
+  bottom: 68.0966%;
+  justify-content: center;
+  flex-direction: column;
+}
+.rectangle3 {
+  position: absolute;
+  left: 19.7914%;
+  right: 77.8054%;
+  top: 31.1308%;
+  bottom: 67.9271%;
+  border-radius: 3px;
+  background-color: #322f2f99;
+}
+.rectangle7 {
+  position: absolute;
+  left: 36.5831%;
+  right: 61.0137%;
+  top: 31.1308%;
+  bottom: 67.9271%;
+  border-radius: 3px;
+  background-color: #322f2f99;
+}
+.rectangle10 {
+  position: absolute;
+  left: 53.3748%;
+  right: 44.222%;
+  top: 31.1308%;
+  bottom: 67.9271%;
+  border-radius: 3px;
+  background-color: #322f2f99;
+}
+.rectangle13 {
+  position: absolute;
+  left: 70.1665%;
+  right: 27.4303%;
+  top: 31.1308%;
+  bottom: 67.9271%;
+  border-radius: 3px;
+  background-color: #322f2f99;
+}
+.rectangle16 {
+  position: absolute;
+  left: 86.9582%;
+  right: 10.6386%;
+  top: 31.1308%;
+  bottom: 67.9271%;
+  border-radius: 3px;
+  background-color: #322f2f99;
+}
+.free {
+  color: #fff;
+  font-size: 8px;
+  line-height: 28px;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 20.4689%;
+  right: 78.4829%;
+  top: 31.3574%;
+  bottom: 68.1537%;
+  justify-content: center;
+  flex-direction: column;
+}
+.free2 {
+  color: #fff;
+  font-size: 8px;
+  line-height: 28px;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 37.2606%;
+  right: 61.6912%;
+  top: 31.3574%;
+  bottom: 68.1537%;
+  justify-content: center;
+  flex-direction: column;
+}
+.free3 {
+  color: #fff;
+  font-size: 8px;
+  line-height: 28px;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 54.0523%;
+  right: 44.8995%;
+  top: 31.3574%;
+  bottom: 68.1537%;
+  justify-content: center;
+  flex-direction: column;
+}
+.free4 {
+  color: #fff;
+  font-size: 8px;
+  line-height: 28px;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 70.844%;
+  right: 28.1078%;
+  top: 31.3574%;
+  bottom: 68.1537%;
+  justify-content: center;
+  flex-direction: column;
+}
+.free5 {
+  color: #fff;
+  font-size: 8px;
+  line-height: 28px;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 87.6357%;
+  right: 11.316%;
+  top: 31.3574%;
+  bottom: 68.1537%;
+  justify-content: center;
+  flex-direction: column;
+}
