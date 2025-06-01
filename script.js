@@ -22,22 +22,20 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // General Click Effect
+   
     document.addEventListener('click', function(event) {
-        // Prevent click effect from running if the click target is a navbar link
-        // that will trigger a page transition, to avoid visual clash.
         if (event.target.closest('.floating-navbar a')) {
             try {
                 const linkElement = event.target.closest('a');
-                if (linkElement && linkElement.href) { // Ensure linkElement and its href exist
+                if (linkElement && linkElement.href) { 
                     const linkUrl = new URL(linkElement.href, window.location.origin);
                     const currentUrl = new URL(window.location.href, window.location.origin);
                     if (linkUrl.hostname === currentUrl.hostname && linkUrl.pathname !== currentUrl.pathname) {
-                        return; // It's a transitioning navbar link, so skip click effect
+                        return; 
                     }
                 }
             } catch (e) {
-                // If href is not a valid URL (e.g. "javascript:void(0)" or just a hash), allow click effect
+                
             }
         }
 
@@ -48,11 +46,10 @@ document.addEventListener('DOMContentLoaded', () => {
         circle.style.top = `${event.pageY}px`;
         setTimeout(() => {
             circle.remove();
-        }, 500); // Duration of the animation
+        }, 500);
     });
 
-    // Card Cursor Glow Effect (for all cards with class .card)
-    const allCards = document.querySelectorAll('.card'); // Selects all cards on any page
+    const allCards = document.querySelectorAll('.card'); 
     allCards.forEach(card => {
         card.addEventListener('mousemove', (e) => {
             const rect = card.getBoundingClientRect();
@@ -63,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Page Transition Script (for navbar links)
+    
     const navbarLinks = document.querySelectorAll('.floating-navbar ul li a');
     const bodyElement = document.body;
 
@@ -72,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const linkUrl = new URL(link.href, window.location.origin);
             const currentUrl = new URL(window.location.href, window.location.origin);
 
-            // Only apply to actual page-changing links within the same site
+           
             if (linkUrl.hostname === currentUrl.hostname &&
                 (linkUrl.pathname !== currentUrl.pathname || linkUrl.search !== currentUrl.search)) {
                 link.addEventListener('click', function(event) {
@@ -81,36 +78,32 @@ document.addEventListener('DOMContentLoaded', () => {
                     bodyElement.classList.add('page-fade-out');
                     setTimeout(() => {
                         window.location.href = destinationUrl;
-                    }, 250); // Matches pageFadeOut animation duration (0.25s)
+                    }, 250); 
                 });
             }
         } catch (e) {
-            // Handles cases where link.href might not be a full URL (e.g. just "#someId" if not properly resolved)
-            // This script primarily targets full page navigations.
         }
     });
 
     window.addEventListener('pageshow', function(event) {
-        // Remove fade-out class if page is shown from bfcache or if it was somehow set
+        
         if (bodyElement.classList.contains('page-fade-out')) {
            bodyElement.classList.remove('page-fade-out');
         }
-        // The initial CSS animation on body (pageFadeIn) should handle the fade-in.
+       
     });
 
-    // Contact Page Card Click Zoom Animation
+   
     const contactCards = document.querySelectorAll('.contact-cards-container .card');
     contactCards.forEach(card => {
         card.addEventListener('click', function() {
-            // Apply the pop animation
+           
             this.classList.add('clicked-zoom-animation');
 
-            // Remove the class after the animation completes so it can be re-triggered
+           
             this.addEventListener('animationend', () => {
                 this.classList.remove('clicked-zoom-animation');
             }, { once: true });
-            // Note: If the click target is an actual link inside the card, navigation will happen.
-            // The animation provides quick visual feedback.
         });
     });
 });
