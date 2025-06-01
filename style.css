@@ -19,30 +19,29 @@ body {
     background-color: var(--primary-bg-color);
     color: var(--text-color);
     margin: 0;
-    padding-top: 160px; /* Space for fixed navbar, pushes .page-wrapper down */
+    padding-top: 160px; 
     font-family: 'Arial', sans-serif;
     overflow-x: hidden;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers .page-wrapper if it doesn't take full width, or centers its content if it does */
+    align-items: center; 
     position: relative;
     box-sizing: border-box;
-    /* Animations involving transform are now removed from body */
-    /* Optional: body can have its own simple fade if needed, but wrapper handles it now */
+  
 }
 
-/* New wrapper for main page content to handle animations */
+
 .page-wrapper {
-    width: 100%; /* Takes full width to contain centered content blocks */
+    width: 100%; 
     display: flex;
     flex-direction: column;
-    align-items: center; /* To center header, cards-container, etc. within it */
-    opacity: 0; /* Start transparent */
+    align-items: center; 
+    opacity: 0; 
     animation: pageWrapperFadeSlideIn 0.35s ease-out forwards;
 }
 
-/* When body gets this class, the wrapper fades/slides out */
+
 body.page-fade-out .page-wrapper {
     animation: pageWrapperFadeSlideOut 0.25s ease-in forwards;
 }
@@ -50,7 +49,7 @@ body.page-fade-out .page-wrapper {
 @keyframes pageWrapperFadeSlideIn {
     from {
         opacity: 0;
-        transform: translateY(20px); /* Content slides in */
+        transform: translateY(20px);
     }
     to {
         opacity: 1;
@@ -65,7 +64,7 @@ body.page-fade-out .page-wrapper {
     }
     to {
         opacity: 0;
-        transform: translateY(-20px); /* Content slides out */
+        transform: translateY(-20px);
     }
 }
 
@@ -109,17 +108,17 @@ body.page-fade-out .page-wrapper {
 }
 
 .floating-navbar {
-    position: fixed; /* This is correct for keeping it at the top */
+    position: fixed;
     top: 25px;
     left: 50%;
-    transform: translateX(-50%); /* For horizontal centering */
+    transform: translateX(-50%);
     background-color: var(--navbar-bg-color-alpha);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 15px 35px;
     border-radius: 50px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.4);
-    z-index: 1000; /* High z-index to stay on top of other content */
+    z-index: 1000; 
     border: 1px solid var(--navbar-border-color);
 }
 
